@@ -1,5 +1,5 @@
 {
-  "name": "pxianyu/migrations",
+  "name": "jeffryhui/migration",
   "type": "library",
   "license": "MIT",
   "description": "Webman plugin eloquent-ORM migrations",
