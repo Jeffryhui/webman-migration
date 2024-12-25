@@ -21,9 +21,6 @@ $table->id();
 $table->timestamps();
 });
 ```
-dev 
- `composer require jeffryhui/migration:dev-dev`
- 在同一个host，同一个端口下，指定不同的库
  
 创建数据库
 `php webman create:database test`
