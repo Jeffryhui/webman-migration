@@ -1,4 +1,7 @@
 # webman-migration
+> fork https://github.com/pxianyu/webman-migrations
+
+
  和laravel migration 使用方法类似
 - php webman migrate:created create_users_table 生成迁移文件
 - php webman migrate:created create_users_table --path=admin 生成迁移文件是指定目录
@@ -19,7 +22,7 @@ $table->timestamps();
 });
 ```
 dev 
- `composer require pxianyu/migrations:dev-dev`
+ `composer require jeffryhui/migration:dev-dev`
  在同一个host，同一个端口下，指定不同的库
  
 创建数据库
