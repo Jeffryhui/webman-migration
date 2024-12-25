@@ -31,7 +31,8 @@ class CreateMigration extends AbstractCommand
         $this->creator = new MigrationCreator(new Filesystem(), __DIR__ . '/../../data/stubs');
     }
 
-    public function execute(InputInterface $input, OutputInterface $output)
+
+    public function execute(InputInterface $input, OutputInterface $output):int
     {
         $this->bootstrap($input, $output);
         $name = Str::snake(trim($this->input->getArgument('name')));
